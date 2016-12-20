@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+input {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  font-size: 30px;
+  letter-spacing: 2px;
+}
