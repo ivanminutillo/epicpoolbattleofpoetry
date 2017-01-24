@@ -2,14 +2,15 @@
   "name": "epicpoolbattleofpoetry",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ivanminutillo.github.io/epicpoolbattleofpoetry",
+  "homepage": "https://ivanminutillo.github.io/",
   "devDependencies": {
     "gh-pages": "0.12.0",
     "react-scripts": "0.8.4"
   },
   "dependencies": {
     "react": "15.4.1",
-    "react-dom": "15.4.1"
+    "react-dom": "15.4.1",
+    "react-router": "3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
